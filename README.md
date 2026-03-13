@@ -37,9 +37,10 @@ Pre-compiled binaries are already included in the `engine/` folder:
 | Platform | Binary Name | Size |
 |----------|-------------|------|
 | Windows | `stockfish-windows-x86-64.exe` | 3.3 MB |
-| Linux | `stockfish-ubuntu-x86-64` | 0.4 MB |
+| Linux | `stockfish-ubuntu-x86-64` | 2.8 MB (static) |
 
 > **Stockfish 11** is the last version before NNUE — pure classical evaluation, extremely lightweight.
+> The Linux binary is **statically linked** — no glibc dependency, works on any Linux x86-64 system (including CloudLinux / shared hosting).
 >
 > **For shared hosting (Vietnix, etc.):** These `x86-64` builds (SSE2 only) are designed for maximum compatibility.
 
