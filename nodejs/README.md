@@ -61,7 +61,7 @@ main().catch(console.error);
 
 | Property | Type | Description |
 |---|---|---|
-| `id.name` | string | Engine name (e.g., "Stockfish 15.1") |
+| `id.name` | string | Engine name (e.g., "Stockfish 11 64") |
 | `id.author` | string | Engine author |
 | `options` | Object | Available UCI options with types and defaults |
 

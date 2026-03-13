@@ -23,7 +23,7 @@ class EngineError extends Error {
 /**
  * Communicates with a UCI-protocol compatible chess engine via stdin/stdout.
  *
- * Tested with: Stockfish 15.1, and compatible with any engine
+ * Tested with: Stockfish 11, and compatible with any engine
  * following the UCI protocol specification.
  */
 class UciEngine extends EventEmitter {

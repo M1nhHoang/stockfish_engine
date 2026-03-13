@@ -30,16 +30,16 @@ stockfish_engine/
 
 Download the appropriate binary from [stockfishchess.org/download](https://stockfishchess.org/download/) and place it in the `engine/` folder.
 
-### Included Version: **Stockfish 15.1**
+### Included Version: **Stockfish 11**
 
 Pre-compiled binaries are already included in the `engine/` folder:
 
 | Platform | Binary Name | Size |
 |----------|-------------|------|
-| Windows | `stockfish-windows-x86-64.exe` | 48.2 MB |
-| Linux | `stockfish-ubuntu-x86-64` | 45.3 MB |
+| Windows | `stockfish-windows-x86-64.exe` | 3.3 MB |
+| Linux | `stockfish-ubuntu-x86-64` | 0.4 MB |
 
-> **NNUE is embedded** in the binary at compile time — no separate `.nnue` file needed.
+> **Stockfish 11** is the last version before NNUE — pure classical evaluation, extremely lightweight.
 >
 > **For shared hosting (Vietnix, etc.):** These `x86-64` builds (SSE2 only) are designed for maximum compatibility.
 
