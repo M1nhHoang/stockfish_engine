@@ -1,0 +1,11 @@
+{
+  "name": "uci-engine",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for UCI chess engines (Stockfish, etc.)",
+  "main": "src/uci-engine.js",
+  "scripts": {
+    "example": "node examples/play-console.js"
+  },
+  "keywords": ["chess", "uci", "stockfish", "engine", "ai"],
+  "license": "MIT"
+}
